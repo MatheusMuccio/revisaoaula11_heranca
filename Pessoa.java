@@ -9,6 +9,10 @@ public class Pessoa{
     public void setNome(String nome) {
         this.nome = nome;
     }
+    public Pessoa(String nome, String telefone) {
+        this.nome = nome;
+        this.telefone = telefone;
+    }
     public String getEndereco() {
         return endereco;
     }
@@ -18,8 +22,14 @@ public class Pessoa{
     public String getTelefone() {
         return telefone;
     }
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
     public void setTelefone(String telefone) {
         this.telefone = telefone;
+    }
+    public Pessoa(){
+        
     }
 
 }
